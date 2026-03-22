@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+   text-shadow: 0 0 1px black;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background:linear-gradient(#a2d2ff,pink)
+} 
+
+#main{ width: 150px;  /* Equal width and height */
+  height: 150px; /* Equal width and height */
+  border-radius: 50%; /* Creates the circular shape */
+  object-fit: cover;
+  border: 1px solid pink;
+}
+
+    
+.years{
+    background: #EFB0C9;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.date{
+    background: #EFB0C9;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0;
+}
+.gift-cover{
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    height:400px ;
+    background-image: url(gift-cover.jpg);
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-size: cover;
+
+}
+.gift-cover:hover{
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzEwNXBmdzY5cjIyZ2JoOW5jMDd0dTg1ZXJkMWUwa3JycWRmajJldCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eTv2whEv6K7yo/giphy.gif);
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+.gift-hint{
+    margin-top: 0px;
+}
+.gift-title2{
+    margin-bottom: 10px;
+    
+}
+.gift-cover2{
+   width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    height:400px ;
+    background-image: url(gift-cover.jpg);
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-size: cover; 
+}
+.gift-cover2:hover{
+    background-image: url(hot.gif);
+}
+
+.gift-cover3{
+   width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    height:400px ;
+    background-image: url(gift-cover.jpg);
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-size: cover; 
+}
+
+.gift-cover3:hover{
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHR1Z3l2cnBsOHJiOHB2dHAyZ2o5Y3BnNWRmbXpyZWl2bGFld2pudCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ywcJKx2EfBBrMdB5ck/giphy.gif);
+}
+
+.gift-cover4{
+   width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    height:400px ;
+    background-image: url(gift-cover.jpg);
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-size: cover; 
+}
+
+.gift-cover4:hover{
+    background-image: url(dibyasmoke.jpg);
+}
+
+.gift-cover5{
+   width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    height:200px ;
+    background-image: url(gift-cover.jpg);
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-size: cover; 
+}
+.gift-cover5:hover{
+    background-image: url(cheers.gif);
+}
